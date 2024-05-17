@@ -9,30 +9,31 @@
 </head>
 <body>
     <div class="container-fluid">
+        <div class="Bordering">
 <h1 class="text-center">Calculate Your BMI</h1>
 <div class="row align-items-start text-center mx-auto">
     <div class="col">
       <p>Height(cm):</p>
-      <input type="number" id="Height">
+      <input type="number" id="Height" required>
     </div>
     <div class="col">
     <p>Weight(kg)</p>
-    <input type="number" id="Weight">   
+    <input type="number" id="Weight" required>   
      </div>
   </div>
   <div class="row align-items-start text-center mx-auto">
-    <div class="col">
+    <div class="col p-2">
 <button type="button" id="BMICalculate" onclick="BMICheck()">Calculate Your BMI</button>
     </div>
   </div>
 <div class="card mx-auto" style="width: 18rem;">
     <div class="card-body">
-      <h2 class="card-title">You are:<p id="BMIP"></p></h2>
+      <!-- <h2 class="card-title">You are:<p id="BMIP"></p></h2> -->
       <h5>Your BMI is:<p id="BMIScale"></p></h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
     </div>
   </div>
-
+</div>
 
 
 
