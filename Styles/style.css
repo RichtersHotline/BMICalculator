@@ -4,16 +4,29 @@
 margin:0;
 padding: 0;
 box-sizing:border-box;
-
+font-family:arial;
 }
 .Bordering {
 
 display:flex;
 flex-flow:column wrap;
 background-color:beige;
-padding:20px;
+width:100%;
+padding:2rem;
+border:2px solid black;
 }
 
+#BMICalculate {
 
+background-color:bisque;
+    color:black;
+ border:1px solid black;
+padding:0.4rem;
+ &:hover {
 
+color:gray;
+box-shadow:2px 2px rgb(114, 114, 99);;
+
+ }
+}
 
